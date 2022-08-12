@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
-import ArtTrackIcon from '@mui/icons-material/ArtTrack'
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney'
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary'
+import LocationOnIcon from '@mui/icons-material/LocationOn'
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
+import MailIcon from '@mui/icons-material/Mail'
 import ContactSupportIcon from '@mui/icons-material/ContactSupport'
 
 interface Data {
@@ -12,23 +12,18 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <ArtTrackIcon />,
+    title: 'Dirección Casa Matriz',
+    description: 'Avda. Manso de Velasco #499, Curicó',
+    icon: <LocationOnIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <AttachMoneyIcon />,
+    title: 'Teléfono',
+    description: '+56 75 2 530104',
+    icon: <LocalPhoneIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <LocalLibraryIcon />,
-  },
-  {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <ContactSupportIcon />,
+    title: 'Correo electrónico',
+    description: 'fidel.facaz@gmail.com',
+    icon: <MailIcon />,
   },
 ]

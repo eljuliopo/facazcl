@@ -9,25 +9,18 @@ const Footer: FC = () => {
   return (
     <Box
       component="footer"
-      sx={{ backgroundColor: 'primary.main', py: { xs: 6, md: 10 }, color: 'primary.contrastText' }}
+      sx={{ backgroundColor: 'primary.main', py: { xs: 6 }, color: 'primary.contrastText' }}
     >
       <Container>
-        <Grid container spacing={1}>
-          <Grid item xs={12} md={5}>
-            <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
+            <Box sx={{ width: { xs: '100%' }, mb: { xs: 3, md: 0 }, textAlign: 'center' }}>
               <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-                Coursespace
+                <img src="/images/logofacaz.png" alt="Logo Facaz" />
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                Coursespace is an online learning platform that has been operating since 2018 until now.
+                Facaz Ltda. Empresa Chilena 2022
               </Typography>
               <FooterSocialLinks />
             </Box>
-          </Grid>
-          <Grid item xs={12} md={7}>
-            <FooterNavigation />
-          </Grid>
-        </Grid>
       </Container>
     </Box>
   )
