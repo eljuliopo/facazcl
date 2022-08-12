@@ -23,7 +23,7 @@ export const data: Data[] = [
   },
   {
     title: 'Correo electrónico',
-    description: 'fidel.facaz@gmail.com',
+    description: 'grupo@facaz.cl',
     icon: <MailIcon />,
   },
 ]
